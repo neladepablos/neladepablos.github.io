@@ -16,7 +16,9 @@
   background-repeat: no-repeat;
 }
 
-
+.project-image > #web {
+  background-image: url(../images/screems/web\ services.png);
+}
 .project-image > #portafolio {
   background-image: url(../images/screems/portafolio.png);
 }
