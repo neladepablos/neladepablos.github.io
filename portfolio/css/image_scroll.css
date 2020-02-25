@@ -28,6 +28,9 @@
 .project-image > #blog {
   background-image: url(../images/screems/blog-flex.png);
 }
+.project-image > #bootstrap {
+  background-image: url(../images/screems/boostrap.png);
+}
 
 .project-image > #diario {
   background-image: url(../images/screems/diario.png);
