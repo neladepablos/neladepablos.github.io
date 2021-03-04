@@ -1,142 +1,131 @@
 <!DOCTYPE html>
-<html class="no-js" lang="en">
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Mi Portafolio</title>
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet" />
-    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
-    <link href="css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/image_scroll.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marianela | Portfolio</title>
+    <link rel="stylesheet" href="./styles/normalize.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://kit.fontawesome.com/ca898f2436.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-    <a href="../" id="scroll"><span></span></a>
-    <div id="projects" class="background-alt">
-        <h2 class="heading">My Work</h2>
-        <div class="container">
-            <div class="row">
-
-                <div class="project shadow-large">
-                    <div class="project-image">
-                        <div id="Blog-Responsive-Design" class="project-inner-image"></div>
-                    </div>
-
-
-                    <div class="project-info">
-                        <h3>BLOG</h3>
-                        <p>
-                            Este pequeño proyecto donde se implementò flexbox, Javascript, responsive Design.
-                        </p>
-                        <a href="https://neladepablos.github.io/Blog-Responsive-Design/" target="_blank">Ver</a
-              >
-            </div>
-            <!-- End .project-info -->
-          </div>
-
-          <div class="project shadow-large">
-            <div class="project-image">
-              <div id="webtourist" class="project-inner-image"></div>
-            </div>
-          
-             
-            <div class="project-info">
-              <h3>Servicios Turìsticos</h3>
-              <p>
-                Este pequeño proyecto se
-                implementò flexbox, bootstrap, Parallax, Responsive web desig, efecto acordeòn.
-              </p>
-              <a href="https://neladepablos.github.io/Servicios-Turisticos/" target="_blank"
-                >Ver</a
-              >
-            </div>
-            <!-- End .project-info -->
-          </div>
-
-          <div class="project shadow-large">
-            <div class="project-image">
-              <div id="diario" class="project-inner-image"></div>
-            </div>
-            <!-- End .project-image -->
-           
-            <div class="project-info">
-              <h3>Diario</h3>
-              <p>
-                Este pequeño proyecto es una pàgina de noticias, donde se
-                implementò flexbox, Css-grid y sass.
-              </p>
-              <a href="https://neladepablos.github.io/DIARIO/" target="_blank"
-                >Ver</a
-              >
-            </div>
-            <!-- End .project-info -->
-          </div>
-
-          <div class="project shadow-large">
-            <div class="project-image">
-              <div id="blog" class="project-inner-image"></div>
-            </div>
-            <!-- End .project-image -->
-            <div class="project-info">
-              <h3>Blog - Flex</h3>
-              <p>
-                Pequeña de un blog donde se aplicò flexbox, sass y responsive
-                web design.
-              </p>
-              <a href="https://neladepablos.github.io/BLOG/" target="_blank"
-                >Ver</a
-              >
-            </div>
-            <!-- End .project-info -->
-          </div>
-
-          <div class="project shadow-large">
-            <div class="project-image">
-              <div id="movie" class="project-inner-image"></div>
-            </div>
-            <!-- End .project-image -->
-            <div class="project-info">
-              <h3 style="text-align: center;">Movie-Grid</h3>
-              <p>
-                Pequeña web donde se aplico Css-Grid, flexbox and transition.
-              </p>
-              <a href="https://neladepablos.github.io/Grid-desig-movie/" target="_blank"
-                >Ver</a
-              >
-            </div>
-            <!-- End .project-info -->
-          </div>
-
-          <div class="project shadow-large">
-            <div class="project-image">
-              <div id="portafolio" class="project-inner-image"></div>
-            </div>
-            <!-- End .project-image -->
-            <div class="project-info">
-              <h3>Portfolio Beginner</h3>
-              <p>
-                Pequeña portafolio donde se implementò flexbox, animaciones y
-                trancisiones.
-              </p>
-              <a
-                href="https://neladepablos.github.io/Portafolio/"
-                target="_blank"
-                >Ver</a
-              >
-            </div>
-            <!-- End .project-info -->
-          </div>
-
-          <!-- End .project -->
+    <div class="container-header">
+        <div class="wrapper">
+            <header class="header">
+                <div class="header__logo">
+                    <a href="../index.html">Marianela</a>
+                </div>
+                <nav class="header__nav">
+                    <a href="../index.html">Currìculo | CV</a>
+                   <button class="header__nav--btn" id="header__nav--btn">
+                       <span><i class="far fa-sun"></i></span>
+                       <span><i class="fas fa-moon"></i></span>
+                   </button>
+                </nav>
+            </header>
         </div>
-      </div>
+        <section class="banner">
+            <div class="wrapper">
+                <h2>Hola, soy Marianela. Este es mi portafolio. Encantada de conocerte.</h2>
+            </div>
+            <a href="#grid-gallery" class="saltarina"><i class="fas fa-angle-down"></i></a>
+        </section>
     </div>
 
-    <!-- End #projects -->
-  </body>
+    
+
+    <main class="main">
+        <div class="grid-gallery" id="grid-gallery">
+            
+            <!-- img-4 -->
+            <div class="container-grid-gallery">
+                <a class="grid-gallery__item" href="https://neladepablos.github.io/Api-GitHub-Frontend/" target="_blank">
+                    <img class="grid-gallery__image" src="./screems/github.png">
+                </a>
+                <div class="post-overlay">
+                    <h3 class="post-overlay-title">Api - Github</h3>
+                    <a href="https://neladepablos.github.io/Api-GitHub-Frontend/" class="post-overlay-button" target="_blank">Ver</a>
+                </div>
+            </div>
+            
+            <!-- img-5 -->
+            <div class="container-grid-gallery">
+                <a class="grid-gallery__item" href="https://neladepablos.github.io/FrontendNASA/" target="_blank">
+                    <img class="grid-gallery__image" src="./screems/nasa2.png">
+                </a>
+                <div class="post-overlay">
+                    <h3 class="post-overlay-title">Api - Nasa</h3>
+                    <a href="https://neladepablos.github.io/FrontendNASA/" class="post-overlay-button" target="_blank">Ver</a>
+                </div>
+            </div>
+
+            <!-- img-1 -->
+            <div class="container-grid-gallery">
+                <a class="grid-gallery__item" target="_blank" href="https://neladepablos.github.io/BLOG/">                   
+                    <img class="grid-gallery__image" src="./screems/blog-flex2.png">
+               </a>
+               <div class="post-overlay">
+                    <h3 class="post-overlay-title">Blog</h3>
+                    <a href="https://neladepablos.github.io/BLOG/" target="_blank" class="post-overlay-button">Ver</a>
+                </div>
+            </div>
+            
+            <!-- img-2 -->
+            <div class="container-grid-gallery">
+                <a class="grid-gallery__item" target="_blank" href="https://neladepablos.github.io/DIARIO/">
+                    <img class="grid-gallery__image" src="./screems/diario2.png">
+                </a>
+                <div class="post-overlay">
+                    <h3 class="post-overlay-title">Diario</h3>
+                    <a href="https://neladepablos.github.io/DIARIO/" target="_blank" class="post-overlay-button">Ver</a>
+                </div>
+            </div>
+            
+            <!-- img-3 -->
+            <div class="container-grid-gallery">
+                <a class="grid-gallery__item" target="_blank" href="https://neladepablos.github.io/Grid-desig-movie/">
+                    <img class="grid-gallery__image" src="./screems/movie2.png">
+                </a>
+                <div class="post-overlay">
+                    <h3 class="post-overlay-title">Movie - Grid</h3>
+                    <a href="https://neladepablos.github.io/Grid-desig-movie/" target="_blank" class="post-overlay-button">Ver</a>
+                </div>    
+            </div>
+
+          
+            <!-- img-6 -->
+            <div class="container-grid-gallery">
+                <a class="grid-gallery__item" target="_blank" href="https://neladepablos.github.io/Servicios-Turisticos/">
+                    <img class="grid-gallery__image" src="./screems/webtourist2.png">
+                </a>
+                <div class="post-overlay">
+                    <h3 class="post-overlay-title">Servicios turìsticos</h3>
+                    <a href="https://neladepablos.github.io/Servicios-Turisticos/" target="_blank" class="post-overlay-button">Ver</a>
+                </div>
+            </div> 
+            
+
+        </div>
+
+    </main>
+
+    <div class="wrapper">
+        <footer class="footer">
+            <p>© 2021. Marianela</p>
+            <div class="foter__social">
+                <a href="https://twitter.com/neladepablos" target="_blank"><i class="icon fab fa-twitter"></i></a>
+                <a href="https://github.com/neladepablos" target="_blank"><i class="icon fab fa-github"></i></a>
+                <a href="#"><i class="icon fab fa-linkedin-in"></i></a>
+            </div>
+        </footer>
+    </div>
+
+
+<script src="main.js"></script>
+
+</body>
+
 </html>
