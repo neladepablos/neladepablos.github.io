@@ -220,6 +220,10 @@ p {
 .main-wrapper .projects-section .item {
   margin-bottom: 15px;
 }
+
+.main-wrapper .projects-section .item a {
+  text-decoration: none;  
+}
 .skillset .item {
   margin-bottom: 15px;
   overflow: hidden;
