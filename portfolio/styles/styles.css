@@ -278,6 +278,7 @@ body.dark .saltarina {
 
 .container-grid-gallery:nth-child(11n+1) {
     grid-column: span 3;
+    
 }
 .container-grid-gallery:nth-child(11n+2) {
     grid-column: span 2;
